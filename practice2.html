@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    
+    <style>
+        .main{width: 1000px; margin: auto;}
+        .mainbanner{height: 500px; background-color: cadetblue;}
+
+        .header{margin: 20px;}
+        .header>a{float: left;}
+        .header>ul{float: right; font-size: 12px;}
+        .header>ul>li{float:left; margin-left: 20px;}
+        .header>ul>li:hover{text-decoration: underline;}
+
+        .depth1{float: left; margin-top: 30px; margin-left: 60px; position: relative;}
+        .depth1:nth-of-type(1){margin-left: 0;}
+        .depth1>a{font-size: 20px; text-align: center; height: 20px; line-height: 20px; display: block; font-weight: bold;}
+        .depth1:hover>.depth2{display: block;}
+
+        .depth2{float: left; position: absolute; font-size: 15px; height: 20px; line-height: 20px; margin-top: 20px; display: none; color: greenyellow; background-color: white; width: 100px;}
+        .depth2
+
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header cf">
+            <a href="#"><img src="img/logo.png" alt=""></a>
+            <ul>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+        </div>
+        <div class="manu">
+            <ul class="gnb cf">
+                <li class="depth1">
+                    <a href="#">시설안내</a>
+                    <ul class="depth2">
+                        <li><a href="#">초대의글</a></li>
+                        <li><a href="#">시설개요</a></li>
+                        <li><a href="#">주변안내</a></li>
+                        <li><a href="#">찾아오는길</a></li>
+                    </ul>
+                </li>
+                <li class="depth1">
+                    <a href="#">학원안내</a>
+                    <ul class="depth2">
+                        <li><a href="#">초대의글</a></li>
+                        <li><a href="#">시설개요</a></li>
+                        <li><a href="#">주변안내</a></li>
+                        <li><a href="#">찾아오는길</a></li>
+                    </ul>
+                </li>
+                <li class="depth1">
+                    <a href="#">이용안내</a>
+                    <ul class="depth2">
+                        <li><a href="#">초대의글</a></li>
+                        <li><a href="#">시설개요</a></li>
+                        <li><a href="#">주변안내</a></li>
+                        <li><a href="#">찾아오는길</a></li>
+                    </ul>
+                </li>
+                <li class="depth1">
+                    <a href="#">정보광장</a>
+                    <ul class="depth2">
+                        <li><a href="#">초대의글</a></li>
+                        <li><a href="#">시설개요</a></li>
+                        <li><a href="#">주변안내</a></li>
+                        <li><a href="#">찾아오는길</a></li>
+                    </ul>
+                </li>
+                <li class="depth1">
+                    <a href="#">학원소개</a>
+                    <ul class="depth2">
+                        <li><a href="#">초대의글</a></li>
+                        <li><a href="#">시설개요</a></li>
+                        <li><a href="#">주변안내</a></li>
+                        <li><a href="#">찾아오는길</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="mainbanner">
+        <h2>메인배너영역</h2>
+    </div>
+</body>
+</html>

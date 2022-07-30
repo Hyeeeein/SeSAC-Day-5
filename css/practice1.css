@@ -1,0 +1,8 @@
+ul{margin: auto; width: 800px;}
+ul>li{float: left; margin-left: 96px;}
+ul>li:first-child{margin-left: 0;}
+ul>li>a{display: block; width: auto; height: 64px; line-height: 64px; font-size: 17px; text-align: center; position: relative;}
+
+ul>li>a::after{content: ""; display: block; height: 3px; width: 0px; background-color: darkblue; position: absolute; left: 50%; top: 70px; transform: translateX(-50%);}
+
+ul>li:hover>a::after{width: 70px; transition: 1s;}
